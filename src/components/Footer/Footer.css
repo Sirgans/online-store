@@ -1,0 +1,109 @@
+.footer {
+    height: 480px;
+    background-color: #384685;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 42px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.footer_line {
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 4px;
+}
+
+.footer_logo {
+    position: absolute;
+    width: 167px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: -27px;
+}
+
+.phone-number {
+    font-size: 20px;
+    color: white;
+}
+
+.footer__info {
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_time{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.footer_adres {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact {
+    margin-top: 67px;
+    color: white;
+}
+
+.insta {
+    margin-left: 0;
+    width: 60px;
+}
+
+.footer_mail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-left,
+.footer-right {
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-right {
+    flex: 0 0 225px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.footer__navbar {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+li {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer_prava {
+    /* transform: translateY(70px); */
+    padding-top: 82px;
+}
+
+.prava {
+    
+    color: #DBDBDB;
+}
