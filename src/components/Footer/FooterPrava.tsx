@@ -4,7 +4,7 @@ const FooterPrava = () => {
     return (
         <>
             <div className='footer_prava'>
-            <p className='prava'>© Все права защищены</p>
+                <p className='prava'>© Все права защищены</p>
             </div>
         </>
     )
