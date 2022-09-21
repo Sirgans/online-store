@@ -1,0 +1,93 @@
+
+.headerContacts {
+  display: flex;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__address {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 67px;
+
+    & a {
+      color: #E13B3F;
+      text-decoration: underline;
+      padding-top: 5px;
+    }
+  }
+
+  &__phone {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    width: 205px;
+    flex-wrap: wrap;
+    margin-left: 72px;
+    margin-right: 90px;
+
+    & span {
+      display: inline-block;
+      padding-left: 10px;
+      padding-bottom: 5px;
+    }
+
+    & button {
+      font-size: 18px;
+      padding: 6px 20px;
+      color: #E13B3F;
+      border: 1px solid #E13B3F;
+      border-radius: 5px;
+      background: transparent;
+      cursor: pointer;
+      transform: translateX(20px);
+    }
+  }
+
+  &__login, &__favorites, &__cart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__login {
+    margin-right: 40px;
+  }
+
+  &__favorites {
+    margin-right: 28px;
+  }
+
+  &__favoritesWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span {
+      background: #E13B3F;
+      width: 36px;
+      height: 19px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 1px 14px 3px;
+      border-radius: 7px;
+    }
+  }
+}
